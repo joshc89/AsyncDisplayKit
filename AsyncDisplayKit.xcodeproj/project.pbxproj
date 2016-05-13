@@ -366,6 +366,8 @@
 		A32FEDD51C501B6A004F642A /* ASTextKitFontSizeAdjuster.h in Headers */ = {isa = PBXBuildFile; fileRef = A32FEDD31C501B6A004F642A /* ASTextKitFontSizeAdjuster.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A373200F1C571B730011FC94 /* ASTextNode+Beta.h in Headers */ = {isa = PBXBuildFile; fileRef = A373200E1C571B050011FC94 /* ASTextNode+Beta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A37320101C571B740011FC94 /* ASTextNode+Beta.h in Headers */ = {isa = PBXBuildFile; fileRef = A373200E1C571B050011FC94 /* ASTextNode+Beta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A59960B61CE606AD003A7E0E /* ASTextFieldNode.h in Headers */ = {isa = PBXBuildFile; fileRef = A59960B41CE606AD003A7E0E /* ASTextFieldNode.h */; };
+		A59960B71CE606AD003A7E0E /* ASTextFieldNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = A59960B51CE606AD003A7E0E /* ASTextFieldNode.mm */; };
 		AC026B581BD3F61800BBC17E /* ASStaticLayoutSpecSnapshotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC026B571BD3F61800BBC17E /* ASStaticLayoutSpecSnapshotTests.m */; };
 		AC026B691BD57D6F00BBC17E /* ASChangeSetDataController.h in Headers */ = {isa = PBXBuildFile; fileRef = AC026B671BD57D6F00BBC17E /* ASChangeSetDataController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC026B6A1BD57D6F00BBC17E /* ASChangeSetDataController.h in Headers */ = {isa = PBXBuildFile; fileRef = AC026B671BD57D6F00BBC17E /* ASChangeSetDataController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -845,6 +847,8 @@
 		A2763D781CBDD57D00A9ADBD /* ASPINRemoteImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASPINRemoteImageDownloader.m; path = Details/ASPINRemoteImageDownloader.m; sourceTree = "<group>"; };
 		A32FEDD31C501B6A004F642A /* ASTextKitFontSizeAdjuster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASTextKitFontSizeAdjuster.h; path = TextKit/ASTextKitFontSizeAdjuster.h; sourceTree = "<group>"; };
 		A373200E1C571B050011FC94 /* ASTextNode+Beta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ASTextNode+Beta.h"; sourceTree = "<group>"; };
+		A59960B41CE606AD003A7E0E /* ASTextFieldNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTextFieldNode.h; sourceTree = "<group>"; };
+		A59960B51CE606AD003A7E0E /* ASTextFieldNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ASTextFieldNode.mm; sourceTree = "<group>"; };
 		AC026B571BD3F61800BBC17E /* ASStaticLayoutSpecSnapshotTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASStaticLayoutSpecSnapshotTests.m; sourceTree = "<group>"; };
 		AC026B671BD57D6F00BBC17E /* ASChangeSetDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASChangeSetDataController.h; sourceTree = "<group>"; };
 		AC026B681BD57D6F00BBC17E /* ASChangeSetDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASChangeSetDataController.m; sourceTree = "<group>"; };
@@ -1088,6 +1092,8 @@
 				058D09DC195D050800B7D73C /* ASDisplayNodeExtras.mm */,
 				0587F9BB1A7309ED00AFF0BA /* ASEditableTextNode.h */,
 				0587F9BC1A7309ED00AFF0BA /* ASEditableTextNode.mm */,
+				A59960B41CE606AD003A7E0E /* ASTextFieldNode.h */,
+				A59960B51CE606AD003A7E0E /* ASTextFieldNode.mm */,
 				058D09DD195D050800B7D73C /* ASImageNode.h */,
 				058D09DE195D050800B7D73C /* ASImageNode.mm */,
 				68355B2E1CB5799E001D4E68 /* ASImageNode+AnimatedImage.mm */,
@@ -1560,6 +1566,7 @@
 				DE6EA3221C14000600183B10 /* ASDisplayNode+FrameworkPrivate.h in Headers */,
 				1950C4491A3BB5C1005C8279 /* ASEqualityHelpers.h in Headers */,
 				68FC85E91CE29C7D00EDD713 /* ASVisibilityProtocols.h in Headers */,
+				A59960B61CE606AD003A7E0E /* ASTextFieldNode.h in Headers */,
 				257754A81BEE44CD00737CA5 /* ASTextKitContext.h in Headers */,
 				DB55C2611C6408D6004EDCF5 /* _ASTransitionContext.h in Headers */,
 				464052221A3F83C40061C0BA /* ASFlowLayoutController.h in Headers */,
@@ -2034,6 +2041,7 @@
 				DBC452DC1C5BF64600B16017 /* NSArray+Diffing.m in Sources */,
 				AC3C4A521A1139C100143C57 /* ASCollectionView.mm in Sources */,
 				9CFFC6C21CCAC768006A6476 /* ASTableNode.mm in Sources */,
+				A59960B71CE606AD003A7E0E /* ASTextFieldNode.mm in Sources */,
 				205F0E1E1B373A2C007741D0 /* ASCollectionViewLayoutController.mm in Sources */,
 				68FC85EB1CE29C7D00EDD713 /* ASVisibilityProtocols.m in Sources */,
 				058D0A13195D050800B7D73C /* ASControlNode.mm in Sources */,
